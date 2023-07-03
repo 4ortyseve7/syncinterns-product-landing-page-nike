@@ -1,0 +1,247 @@
+/* 
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Changa', sans-serif;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
+*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 170px;
+    height: 100px;
+    float: left;
+}
+#nikelogo{
+    height: 100%;
+    margin-left: 20px;
+    clear: both;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+}
+.navbar ul{
+    padding: 20px;
+    width: 100%;
+    height: 100%;    
+}
+.navbar ul li{
+    list-style: none;
+    float: left;
+    font-size: 25px;
+    margin: 22px;
+    margin-top: 13px;
+}
+.navbar a{
+    color: black;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+}
+.navbar a:hover{
+    border-bottom: 1.5px solid black;
+}
+.search{
+    float: right;
+    padding-right: 1%;
+}
+.searchbar{
+    width: 130px;
+    margin-top: 12px;    
+    border: 1px solid white;
+    background-color: rgb(228, 228, 228);
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 100px;
+}
+.searchbar:hover{
+    border: 1px solid rgb(128, 128, 128);
+    
+}
+#hr-header{
+    width: 95%;
+    margin: auto;
+}
+.main-image-box{
+    height: 80vh;
+    width: 90%;
+    margin: auto;
+    clear: both;
+}
+.main-image-box #img-main{
+    height: 100%;
+    float: left;
+}
+.main-details-box{
+    height: 60vh;
+    margin-top: 5%;
+    text-align: right;
+    font-family: 'Barlow Condensed', sans-serif;
+    padding-right: 10px;
+    min-width: 500px;
+}
+#title-main{
+    font-size: 12vh;
+}
+#title-type{
+    font-size: 5vh;
+    padding-top: 10px;
+}
+.title-details{
+    font-size: 3vh;
+    padding-top: 5px;
+}
+#description,#color,#style{
+    font-size: 2vh;
+}
+#tagline{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    
+}
+#tagline #img-tagline:hover,#nikelogo:hover,#img-main:hover,#img-top:hover,#img-side:hover,#img-box:hover,#title-main:hover,#title-type:hover,#price:hover{
+    filter: opacity(60%);
+}
+
+#tagline img{
+    height: 100%;
+    margin-top: -30%;
+}
+#details-img{
+    height: 500px;
+    width: 1100px;
+    margin: auto;
+    margin-top: -300px;
+}
+#img-side{
+    float: left;
+    height: 500px;
+}
+#img-top{
+    float: right;
+    height: 500px;
+}
+.productinfo{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 3vh;
+    text-align: center;
+}
+.orderhere{
+    border-top: 2px solid rgb(128, 128, 128);
+    border-bottom: 2px solid rgb(128, 128, 128);;
+    height: 400px;
+    width: 900px;
+    margin: 20px auto;
+    font-family: 'Barlow Condensed', sans-serif;   
+}
+.orderhere #img-box{
+    margin-right: 30px;
+    float: right;
+}
+.orderhere #niketextlogo{
+    height: 333px;
+    margin-left: 100px;
+    margin-top: -100px;
+    margin-bottom: -99px;
+    
+}
+#ordergrabyour{
+    margin-left: 150px;
+    margin-top: 80px;
+}
+#getnowbutton{
+    font-family: 'Barlow Condensed', sans-serif;
+    border: 4px black solid;
+    border-radius: 100px;
+    padding: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 4vh;
+    font-weight: bolder;
+    margin-left: 90px ;
+}
+#getnowbutton:hover{
+    border: 4px rgb(128, 128, 128) solid;
+    color: rgb(128, 128, 128);
+}
+.footerbox{
+    height: 300px;
+    background-color: #000;
+}
+.footerbox ul li{
+    list-style: none;
+    margin: 4px;
+}
+.footer-info{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 2vh;
+    color: white;
+    height: 100%;
+    width: 75%;
+    margin: auto;
+}
+.footer-info a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.footer-info a:hover{
+    border-bottom: 1px solid white;
+}
+.footer-info div{
+    margin: 20px;
+}
+
+.help,.about{
+    float: left;
+    height: 80%;
+}
+.socials{
+    float: right;
+    height: 80%;
+}
+.footer-col-title{
+    font-weight: bolder;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.social-logo{
+    height: 40px;
+    margin: 5px;
+    filter: invert(100) ;
+}
+.socials a:hover{
+    border: none;
+}
+.copyright{
+    border: 1px solid rgb(128, 128, 128);
+    background-color: #bb1523;
+    height: 40px;
+    width: 100%;
+    color: white;
+    padding: 9px;
+    font-family: 'Martian Mono', monospace;
+    clear: both;
+}
+.copyright p{
+    text-align: left;
+    margin-left: 16%;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+    border: 1px solid rgb(228, 228, 228);
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(128, 128, 128); 
+}  
+::-webkit-scrollbar-thumb:hover {
+    background: #bb1523; 
+}
